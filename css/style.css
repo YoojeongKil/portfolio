@@ -10640,8 +10640,3 @@ h6,
 .list-unstyled li strong {
   font-weight: bold;
 }
-
-/* keyword */
-.keyword {
-  margin-top: -10px;
-}
