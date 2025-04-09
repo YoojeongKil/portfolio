@@ -4804,7 +4804,7 @@ input[type="button"].btn-block {
 
 .card-body {
   position: absolute;
-  bottom: -95px;
+  bottom: -120px;
   left: 0;
   width: 100%;
   background-color: white;
@@ -4850,7 +4850,7 @@ input[type="button"].btn-block {
 }
 
 .card-title {
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
 }
 
 .card-title img {
@@ -10516,11 +10516,19 @@ h6,
 }
 
 .badge-zustand {
-  background-color: #5E4B3C;
+  background-color: #5e4b3c;
 }
 
 .badge-figma {
-  background-color: #F24E1E;
+  background-color: #f24e1e;
+}
+
+.badge-storybook {
+  background-color: #ff4785;
+}
+
+.badge-swagger {
+  background-color: #85ea2d;
 }
 
 .badge-react {
@@ -10540,20 +10548,20 @@ h6,
 }
 
 .badge-html {
-  background-color: #E34F26; 
+  background-color: #e34f26;
 }
 
 .badge-css {
-  background-color: #1572B6;
+  background-color: #1572b6;
 }
 
 .badge-javascript {
-  background-color: #F7DF1E;
+  background-color: #f7df1e;
   color: black;
 }
 
 .badge-firebase {
-  background-color: #FFCA28;
+  background-color: #ffca28;
 }
 
 .badge-expressjs {
@@ -10561,17 +10569,20 @@ h6,
 }
 
 .badge-mongodb {
-  background-color: #47A248;
+  background-color: #47a248;
 }
 
 .badge-android {
-  background-color: #3DDC84;
+  background-color: #3ddc84;
 }
 
 .badge-java {
   background-color: #007396;
 }
 
+.badge-styled {
+  background-color: #db7093;
+}
 
 /* icon link */
 .icon-link {
