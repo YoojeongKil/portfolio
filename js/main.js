@@ -27,6 +27,14 @@
         }
     });
 
+    $('a[href="#about"]').on('click', function (event) {
+        event.preventDefault();
+    
+        $('html, body').animate({
+            scrollTop: $('#about').offset().top - 45
+        }, 1500, 'easeInOutExpo');
+    });
+
 
     // Typed Initiate
     if ($('.typed-text-output').length == 1) {
@@ -35,6 +43,7 @@
             strings: typed_strings.split(', '),
             typeSpeed: 100,
             backSpeed: 20,
+            backDelay: 5000,
             smartBackspace: false,
             loop: true
         });
