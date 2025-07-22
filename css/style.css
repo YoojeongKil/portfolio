@@ -10574,6 +10574,18 @@ h6,
   background-color: #db7093;
 }
 
+.badge-php {
+  background-color: #8892bf;
+}
+
+.badge-gcp {
+  background-color: #4285f4;
+}
+
+.badge-api {
+  background-color: #5f6368;
+}
+
 /* icon link */
 .icon-link {
   color: #0bceaf;
@@ -10655,7 +10667,7 @@ h6,
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;   
+    right: 0;
 
     .content {
       display: flex;
@@ -10707,7 +10719,6 @@ h6,
 /* text animation */
 .animated {
   position: relative;
-
 }
 
 .animated-info {
